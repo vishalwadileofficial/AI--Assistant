@@ -1,0 +1,9 @@
+@echo off
+echo Starting VEDA Frontend...
+cd /d "%~dp0\frontend"
+if not exist "node_modules" (
+    echo Installing dependencies...
+    npm install
+)
+echo Running Next.js Dev Server...
+npm run dev
