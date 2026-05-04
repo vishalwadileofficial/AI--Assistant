@@ -1,11 +1,46 @@
-node_modules/
-package-lock.json
-*.db
-.env
+# IDEs and OS
+.idea/
+.vscode/
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
+.settings/
+.classpath
+.project
+.metadata/
+
+# Node.js & Web
+node_modules/
+dist/
+build/
+out/
+.next/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env_python/
+
+# Java & Build Tools
 target/
 *.class
-__pycache__/
+*.jar
+*.war
+*.ear
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
